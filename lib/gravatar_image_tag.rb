@@ -102,7 +102,7 @@ module GravatarImageTag
     end
 
     def self.gravatar_url_base(secure = false)
-      'http' + (!!secure ? 's://secure.' : '://') + 'gravatar.com/avatar'
+      'https://gravatar.com/avatar'
     end
 
     def self.gravatar_id(email, filetype = nil)
